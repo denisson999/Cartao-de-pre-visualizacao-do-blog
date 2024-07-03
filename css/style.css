@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(255 255 67);
+}
+div.container{
+    background-color: white;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    padding-top: 20px;
+    transition: 0.3s;
+    box-shadow: 6px 5px 0px 5px black;
+}
+div.container>img.ilustr{
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+}
+p.nivel{
+    background-color: rgb(255 255 67);
+    width: 65px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+p, h2{
+    margin-left: 5%;
+}
+section{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+
+}
+section > p{
+   display: inline-block;
+   font-weight: bold;
+   
+
+   
+}
+section > img{
+    margin-left: 5%;
+    
+}
